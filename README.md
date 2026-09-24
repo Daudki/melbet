@@ -73,4 +73,4 @@ export default defineConfig([
 ])
 
 ```
-# 1xbet
+# melbet
