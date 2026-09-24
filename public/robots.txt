@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sportsbet-mn.com/sitemap.xml

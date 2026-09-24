@@ -20,10 +20,10 @@ import { useLang } from "./LanguageContext";
 
 const PROMO_CODE = "DNA63";
 
-const REGISTER_URL = `https://melbet-99601.pro/en/registration?tag=d_4407497m_66335c_&type=phone&bonus=SPORT&currency=TZS&promo=${encodeURIComponent(
+const REGISTER_URL = `https://melbet-99601.pro/mn/registration?tag=d_4407497m_66335c_&type=phone&bonus=SPORT&currency=MNT&promo=${encodeURIComponent(
   PROMO_CODE
 )}`;
-const LOGIN_URL = "https://melbet-99601.pro/en/user/login";
+const LOGIN_URL = "https://melbet-99601.pro/mn/user/login";
 
 function App() {
   const { t, lang, setLang } = useLang();
@@ -371,8 +371,70 @@ function App() {
           </div>
         </section>
 
+        {/* SEO content section */}
+        <section className="border-t border-white/10">
+          <div className="mx-auto max-w-4xl px-5 py-16 lg:px-8">
+            <h2 className="text-3xl font-black">
+              MelBet Registration Mongolia
+            </h2>
+
+            <p className="mt-6 leading-7 text-white/60">
+              To complete your{" "}
+              <strong className="text-white">MelBet registration</strong> from
+              Mongolia, click the Register button at the top of this page.
+              Enter your phone number, select{" "}
+              <strong className="text-white">MNT (Mongolian Tugrik)</strong> as
+              your preferred currency, and enter the promo code{" "}
+              <strong className="text-white">DNA63</strong> in the promo code
+              field to claim your welcome bonus.
+            </p>
+
+            <p className="mt-4 leading-7 text-white/60">
+              MelBet offers sports betting, live betting, casino games and
+              promotions for users in Mongolia. Registration takes less than a
+              minute and requires only your phone number.
+            </p>
+
+            <h3 className="mt-10 text-xl font-bold">
+              How to register on MelBet from Mongolia
+            </h3>
+
+            <ol className="mt-6 space-y-4 text-white/60">
+              <li className="flex gap-4">
+                <span className="font-mono font-bold text-[#e07a1f]">01</span>
+                <span>
+                  Click the <strong className="text-white">Register</strong>{" "}
+                  button on this page.
+                </span>
+              </li>
+              <li className="flex gap-4">
+                <span className="font-mono font-bold text-[#e07a1f]">02</span>
+                <span>
+                  Enter your phone number and select{" "}
+                  <strong className="text-white">MNT</strong> as your currency.
+                </span>
+              </li>
+              <li className="flex gap-4">
+                <span className="font-mono font-bold text-[#e07a1f]">03</span>
+                <span>
+                  Enter the promo code{" "}
+                  <strong className="text-white">DNA63</strong> to unlock the
+                  welcome bonus.
+                </span>
+              </li>
+              <li className="flex gap-4">
+                <span className="font-mono font-bold text-[#e07a1f]">04</span>
+                <span>
+                  Complete verification and start betting on sports, live
+                  events or casino games.
+                </span>
+              </li>
+            </ol>
+          </div>
+        </section>
+
         {/* Features */}
-        <section id="sports">
+        <section id="sports" className="border-t border-white/10">
           <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
             <div className="text-center">
               <p className="text-sm font-bold uppercase tracking-widest text-[#e07a1f]">
